@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
 
-function App() {
+const App = () => {
   // Declare a new state variable, which we'll call "count"
   const [count, setCount] = useState(0);
 
